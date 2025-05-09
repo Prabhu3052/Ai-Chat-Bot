@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://ai-chat-bot-hqgi.onrender.com/api',
-  timeout: 10000, // Set timeout to 10 seconds
+  baseURL: 'https://ai-chat-bot-wmqa.onrender.com/api',
+  timeout: 1000, // Set timeout to 10 seconds
   headers: {
     'Content-Type': 'application/json'
   }
